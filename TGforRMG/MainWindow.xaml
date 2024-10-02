@@ -8,8 +8,11 @@
         Title="Template Builder for HOMM5 RMG" Height="450" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <TextBox Text="{Binding Path=SynchronizedText, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}"/>
-            <TextBlock Text="{Binding Path=SynchronizedText, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}"/>
+            <ToolBar Height="26" Width="795"/>
+            <TextBox Text="{Binding SynchronizedText, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock Text="{Binding SynchronizedText, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Frame Source="View/TemplateCustomizer.xaml" Height="220"/>
+            <Frame Source="View/MapGenerator.xaml" Height="373"/>
         </StackPanel>
     </Grid>
 </Window>

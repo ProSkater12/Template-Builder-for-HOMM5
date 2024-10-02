@@ -61,6 +61,12 @@
     </ApplicationDefinition>
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="View\MapGenerator.xaml.cs">
+      <DependentUpon>MapGenerator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TemplateCustomizer.xaml.cs">
+      <DependentUpon>TemplateCustomizer.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -73,6 +79,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\MapGenerator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TemplateCustomizer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +110,41 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="resources\BasicEmptyMapFiles\ExtraLarge\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\ExtraLarge\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\ExtraLarge\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\ExtraLarge\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\ExtraLarge\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Huge\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Huge\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Huge\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Huge\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Huge\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Impossible\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Impossible\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Impossible\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Impossible\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Impossible\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Large\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Large\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Large\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Large\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Large\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Medium\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Medium\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Medium\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Medium\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Medium\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Small\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Small\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Small\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Small\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Small\MapScript.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Tiny\GroundTerrain.bin" />
+    <None Include="resources\BasicEmptyMapFiles\Tiny\map-tag.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Tiny\map.xdb" />
+    <None Include="resources\BasicEmptyMapFiles\Tiny\MapScript.lua" />
+    <None Include="resources\BasicEmptyMapFiles\Tiny\MapScript.xdb" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -104,7 +153,31 @@
     <Resource Include="VE824qrV_wk.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="doc\" />
     <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\BasicEmptyMapFiles\ExtraLarge\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\ExtraLarge\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\ExtraLarge\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Huge\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Huge\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Huge\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Impossible\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Impossible\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Impossible\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Large\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Large\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Large\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Medium\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Medium\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Medium\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Small\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Small\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Small\name.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Tiny\description.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Tiny\MapGoalText.txt" />
+    <Resource Include="resources\BasicEmptyMapFiles\Tiny\name.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
