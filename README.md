@@ -1,1 +1,59 @@
 # TGforRMG
+< DECK > 
+Sacred Elk 
+- Provoking Bird 
+- Tree Squirrel
+ - Robotic Parts (v5) I 
+ - Spirit of Defense [ANCIENT] I 
+ - The Hammer of Fate 
+ - Airielle, Free Spirit [ANCIENT] 
+ - Robotic Parts (v2) I 
+ - Robotic Parts (v4) I 
+ - Iron Colossus [ROBOT] 
+ - Space Commander 
+ - Fire Priestess 
+ - Beast Commander [BEASTMAN] 
+ - Vampire Lord 
+ - Forest Healer [ELF] 
+ - Blue Witch 
+ - Blade of Justice 
+ - Flame Imp [DEMON] 
+ - Crimson Guard 
+ - Ultron [ROBOT] 
+ - Forgotten Priestess 
+ - Mecha Dino [ROBOT] 
+ - Spirit of Magic [ANCIENT] I 
+ - Toxic Cat [BEASTMAN] 
+ - Spirit of Combat [ANCIENT] I 
+ - Blessed Lady [ANGEL] 
+ - Robotic Parts (v3) I 
+ - Apprentice Guard 
+ - Mage Thief 
+ - Mermaid Queen II 
+ - Lizard Guard [BEASTMAN] 
+ - Demon Guard [DEMON] 
+ - Young Mermaid 
+ - Elf Warrior [ELF] I 
+ - Ant Queen [BEASTMAN] 
+ - RoboWitch [ROBOT] 
+ - Prince of Blood [DEMON] I 
+ - Guardian of Heavens [ANGEL] 
+ - Red Drake I 
+ - Angel Strategist [ANGEL] 
+ - Dark Lotus Witch 
+ - King Neptune I 
+ - Young Witch 
+ - Druid of the High Elves 
+ - Red Witch 
+ - Priest Healer 
+ - Elven Parrot II 
+ - Parrot Trainer [ELF] 
+ - Night Fairy [FAIRY] 
+ - Magic Fox II 
+ - Cthool Apprentice 
+ - Cualdir, Ethereal Blade [ANCIENT] 
+ - Fairy Princess [FAIRY] 
+ - Space Assassin 
+ - High Witch II 
+ - Demon Bride [DEMON] 
+ - Magic Cat I
